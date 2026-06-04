@@ -10,6 +10,11 @@ const products = [
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white p-6">
+      <img
+  src="/images.png"
+  alt="LIMIXI Logo"
+  className="w-24 h-24 mx-auto mb-4"
+/>
       <h1 className="text-4xl font-bold mb-10">AKRAM STORE</h1>
 
       {products.map((p) => (
